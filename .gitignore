@@ -1,0 +1,51 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Jetons/API/Variables secrètes
+.env
+*.env
+
+# Fichiers de configuration système
+.DS_Store
+Thumbs.db
+
+# Notebooks exécutés
+.ipynb_checkpoints/
+
+# Sorties générées
+*.out
+*.tmp
+*.bak
+
+# Données temporaires ou sensibles
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.txt
+
+# Modèles IA
+models/*.pkl
+
+# Exportations utilisateur
+*.docx
+*.pdf
+*.txt
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# VSCode
+.vscode/
+
+# Cache de pip
+pip-wheel-metadata/
